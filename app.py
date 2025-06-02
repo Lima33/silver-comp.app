@@ -494,11 +494,11 @@ def process_and_fill_template(comprobantes_df, percepciones_df, template_df, col
 st.title('🚀 Procesador de Datos AFIP para ONVIO 📊')
 
 st.markdown("""
-¡Bienvenido al **Procesador Inteligente de Datos AFIP para ONVIO**!
+¡Bienvenido al **Procesador Inteligente de Datos AFIP para O**!
 Esta herramienta consolida automáticamente tus comprobantes de compras y percepciones para generar una plantilla lista para importar, con **mínima intervención manual**.
 
 ### ¿Cómo funciona?
-1.  **Sube los archivos Excel:** Comprobantes de Compras, Percepciones y tu Plantilla Modelo de ONVIO.
+1.  **Sube los archivos Excel:** Comprobantes de Compras, Percepciones y tu Plantilla Modelo de O.
 2.  **Detección inteligente:** La aplicación intentará identificar las columnas clave automáticamente.
 3.  **Procesamiento automático:** Si todo es claro, la plantilla se generará de inmediato.
 4.  **Confirmación opcional:** Solo si hay ambigüedad o dudas (o si la inferencia falla), te pediremos que confirmes algunas columnas.
