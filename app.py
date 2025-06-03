@@ -11,7 +11,7 @@ import traceback
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Configuración de la página de Streamlit
-st.set_page_config(page_title="Procesador de Datos AFIP para ONVIO - BETA", layout="wide")
+st.set_page_config(page_title="Procesador de Datos AFIP - BETA", layout="wide")
 
 # Nuevo y Ampliado: Diccionario de mapeo de regímenes de ONVIO basados en tu tabla
 # 'keywords_afip': Lista de cadenas de texto (palabras clave o frases) que se buscarán en las columnas de PERCEPCIONES de AFIP.
@@ -777,4 +777,4 @@ if df_comp is not None and df_perc is not None and df_template is not None:
 
 # Pie de página
 st.markdown("---")
-st.markdown("Desarrollado con ❤️ usando Inteligencia Artificial para simplificar tu trabajo.")
+st.markdown("Desarrollado con ❤️ CM - usando Inteligencia Artificial para simplificar tu trabajo.")
